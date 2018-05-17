@@ -1,32 +1,21 @@
 <template>
    <div id="app">
        <div id="cover"></div>
-       <Header></Header>
-       <Todo></Todo>
-       <Footer></Footer>
    </div>
 </template>
 
 <script>
-import Header from './todo/header.vue'
-import Footer from './todo/footer.jsx'
-import Todo from './todo/todo.vue'
 export default {
-      components:{
-           Header,
-           Footer,
-           Todo,
-       },
   data(){
       return{
-     
+       
       }
   }
 }
 </script>
 
 <style lang="stylus" scoped>
-// lang是指定语言,scoped只应用于这个组件内
+// lang是指定语言
 #app{
   position absolute
   left 0

@@ -37,7 +37,6 @@ const config = {
                 use:[
                     'style-loader',
                     'css-loader',{
-                        //支持css前缀
                         loader:'postcss-loader',
                         options:{
                             sourceMap:true,

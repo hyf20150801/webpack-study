@@ -36,13 +36,7 @@ const config = {
                 test:/\.styl/,
                 use:[
                     'style-loader',
-                    'css-loader',{
-                        //支持css前缀
-                        loader:'postcss-loader',
-                        options:{
-                            sourceMap:true,
-                        }
-                    },
+                    'css-loader',
                     'stylus-loader'
                 ]
             },

@@ -2,7 +2,7 @@
    <div id="app">
        <div id="cover"></div>
        <Header></Header>
-       <Todo></Todo>
+
        <Footer></Footer>
    </div>
 </template>
@@ -15,7 +15,6 @@ export default {
       components:{
            Header,
            Footer,
-           Todo,
        },
   data(){
       return{

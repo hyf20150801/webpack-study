@@ -1,0 +1,9 @@
+{
+  //babel的配置文件
+  "presets":[
+    "env"
+  ],
+  "plugins":[
+    "transform-vue-jsx"
+  ]
+}
